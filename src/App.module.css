@@ -1,0 +1,38 @@
+div.app {
+  text-align: center;
+  font-family: Arial;
+}
+
+div.app * {
+  margin: 4px 0;
+}
+
+div.app button, div.app input {
+  padding: 4px;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(127, 127, 127, 0.75);
+}
+
+.modalContent {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  border: 1px solid black;
+  background-color: white;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  color: orange;
+  text-align: center;
+  font-family: Arial;
+}
